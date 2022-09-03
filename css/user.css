@@ -1,0 +1,124 @@
+main  a{
+    color: #939393;
+}
+/*#first_a{*/
+/*    color: black;*/
+/*}*/
+body{
+    background-color: #b8defa;
+}
+#links{
+    clear: both;
+}
+#top_cont{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#showdata,#search_cont{
+    width: 80%;
+    margin: auto;
+}
+#showdata{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 150px 150px 150px;
+    gap: 3%;
+}
+#top_cont{
+    background-color: white;
+    height: 100px;
+    /* padding: 10px; */
+    box-shadow: 0px 0px 10px black;
+}
+#top_cont p{
+    margin-top:2%;
+    float: left;
+    color: #4d5055;
+    font-size: 26px;
+}
+#top_cont button{
+    margin-top:2%;
+    background-color: #00A2FF;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #00A2FF;
+    border-radius: 5px;
+    float: right;
+}
+#search{
+    width: 200px;
+    height: 29px;
+    border: 1px solid #00A2FF;
+    border-radius: 5px;
+}
+
+a:hover{
+    color: #00A2FF;
+}
+
+#serch_btn{
+width: 50px;
+    height: 30px;
+    color: white;
+    background-color: #00A2FF;
+    border: 1px solid #00A2FF;
+    border-radius: 5px;
+}
+#search_cont{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.datadiv{
+    /* border: 1px solid red; */
+    background-color: white;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0);
+    border-radius: 5px;
+    /* padding-left: 10px; */
+}
+.color_datadiv{
+    border-radius: 0px;
+    width: 100%;
+    height: 12px;
+    background-color: #00A3FA;
+}
+.copy_link{
+    width: 87px;
+    height: 32px;
+    background-color: transparent;
+    color: #00A2FF;
+    border:1px solid #00A3FA;
+    border-radius: 5px;
+    float:right;
+}
+.blue_text{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #00A2FF;
+    float: left;
+}
+.datadiv h1{
+    margin-left: 10px;
+    margin-top: 15%;
+    color: #4d5055;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.datadiv h3{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #00000070;
+}
+.datadiv hr{
+    /* margin-left: 10px; */
+    margin-top: 5%;
+    margin-bottom: 2px;
+}
+.datadiv button{
+    margin-right: 10px;
+}
+.datadiv p{
+    margin-left: 10px;
+}

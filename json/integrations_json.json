@@ -1,0 +1,415 @@
+{
+  "header":
+    {
+      "Popular":["","Powerful Scheduling Apps & Integrations","Integrate Calendly with your current tools to boost productivity"],
+      "Apps":["https://assets.calendly.com/assets/landing/integrations/page_header_icons/apps-be0932de548d5a699e0781a6f6f16ad74bad800043bd374070856a5a65ed2f5b.png","Apps","Use Calendly on your phone, browser or desktop with any of our apps. Get easy access to your Calendly links to simplify scheduling everywhere."],
+      "Calenders":["https://assets.calendly.com/assets/landing/integrations/page_header_icons/calendars-b655fbbb38c1f06e6e59da90708103c429af6629c01d74d52be6555452e85b4a.png","Calendar Integrations","Calendly works seamlessly with all major online calendars to schedule meetings on your work or personal calendar and make sure you’re never double-booked."],
+      "CRM & Sales Tools":["https://assets.calendly.com/assets/landing/integrations/page_header_icons/crm-sales-77412f76f2b0592b6124a0747fc22de8908be80aab3dd99f99c653eb1c1eae46.png","CRMs & Sales Automation Integrations","Close more deals and engage with more leads, all while Calendly automatically updates your records for you."],
+      "Video Conference":["https://assets.calendly.com/assets/landing/integrations/page_header_icons/video-conference-0ff6bb072a084a0af0a97660fa33560a6261533393edc42345ebe4ef2a572dd0.png","Video Conference Tools Integrations","Automatically generate and include video conference details in your Calendly events—eliminating extra work for you and giving your invitees quick access."],
+      "Marketing Tools":["https://assets.calendly.com/assets/landing/integrations/page_header_icons/marketing-10fddb9dccb2904c3ed2e90616a8e8bb08085a04fb0a7fda0520a274c4c94e45.png","Marketing Tools & Automation Integrations","Capture leads and schedule with them at the peak of their interest across all of your digital marketing campaigns at all stages of the funnel."],
+      "ATS & Recruiting":["https://assets.calendly.com/assets/landing/integrations/page_header_icons/ats-recruiting-d00bdb4367247d4d749df23347fef52eeada05762164528bda698d88f513959b.png","ATS & Recruiting Integrations","Schedule quickly with candidates and update their profiles with interview details to keep a competitive edge in recruiting and deliver the best candidate experience."],
+      "Payment Processors":["https://assets.calendly.com/assets/landing/integrations/page_header_icons/payment-7fe56402312b3df616f3f8bd4970674da5df1c813559d12f82e276a5a28689f4.png","Payment Processor Integrations","Collect secure payment for services up front and automate your billing process."],
+      "Analytics":["https://assets.calendly.com/assets/landing/integrations/page_header_icons/analytics-ac5e0a60e3b6a3cbc757f6b95b75ba4e5d9e6f6a1235702104a8b08df2dcdace.png","Analytics Integrations","Improve conversion metrics and build better customer journeys by adding meeting conversions to your reporting and analytics."],
+      "API & Connectors":["https://assets.calendly.com/assets/landing/integrations/page_header_icons/api-connectors-3e38de0ce234047a51174ee75b3a92bd6ca9c33e207951704047daf15fb69e91.png","API & Connectors","You can easily connect Calendly with hundreds of apps and tools. Looking for a more custom integration? Use our API to build exactly what you need."],
+      "Others":["https://assets.calendly.com/assets/landing/integrations/page_header_icons/other-2f15432e8fc1a1527e480088dd8185b233bb56e6e1351829e95d5e32138d2b39.png","Other Integrations","Connect Calendly with the productivity tools you use everyday and make the most of every meeting."]
+    }
+  ,
+  "teams":{
+    "one":["https://assets.calendly.com/assets/landing/team_scheduling/teams-icon-01-9b776e281bc6ff0409d6dab3a98ec24c16a7fbd949ae776c1576e806b99bd359.png","Individual Scheduling","Full Premium features and personal scheduling pages for each team member."],
+    "two":["https://assets.calendly.com/assets/landing/team_scheduling/teams-icon-02-a49dd55a405b35390626bfda6c426e7183f07fcd51c909308107ed8ad6da7ff1.png","Auto-assigned meetings","Invitee schedules a time, meeting is automatically assigned to an available team member."],
+    "three":["https://assets.calendly.com/assets/landing/team_scheduling/teams-icon-03-da9c9248e5a7d6c30502567576571598a9eb1660fb56205d82964ba26e1f1d25.png","Team member selection","Invitee chooses which team member they need to meet with from a team-wide page."],
+    "four":["https://assets.calendly.com/assets/landing/team_scheduling/teams-icon-04-5425e73452d0c8ebeb83121a367637d2666640860a0bbd0b7783a0ebb19a90e5.png","Team-wide Pages","Display your entire company / department's availability on one convenient page."],
+    "five":["https://assets.calendly.com/assets/landing/team_scheduling/teams-icon-05-d8b5ef794ecbddb30844b0e959652054f631f08551ddaca9d17047365bde3872.png","Centralized Billing","One easy payment covers all team members' subscriptions."],
+    "six":["https://assets.calendly.com/assets/landing/team_scheduling/teams-icon-06-5369c67f7f9f3c3611f64c6b073c476f180bf7b09c49461ad68b5645ecbf539c.png","Metrics & Reporting","Understand what drives invitees to engage and track scheduling activity to campaigns."]
+  },
+  "Popular": [
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/zoom-52942e8375de76156daad72591699b19e8bc59922312ceae2cbcdd8ddd8c7ae1.png",
+      "title": "Zoom",
+      "description": "Automatically generate unique Zoom video conferencing and dial-in details in new Calendly events.",
+      "link": "https://zoom.us/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/salesforce-1366e81c3d4bb2df6fe1717401a84fff09af0ed135b4c52e9d5d70b5047050ba.png",
+      "title": "Salesforce",
+      "description": "Combine the superpowers of Salesforce and Calendly to create an unstoppable sales and marketing operation.",
+      "link": "https://login.salesforce.com/?locale=in"
+    },    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/list/msteams-7c3534ab3f203f69da4ec0422d8e4f8fc8d070afc808aaa3cddc510a3d0048ad.png",
+      "title": "Microsoft Teams",
+      "description": "Connect effortlessly by automatically adding your Microsoft Teams conference details to every Calendly event.",
+      "link": "https://www.microsoft.com/en-in/microsoft-teams/log-in"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/list/hubspot-51c65d6b24fe044db06f06d65eeabc3714ce693ec1084e6bc8ec7eda2321d9ef.png",
+      "title": "HubSpot",
+      "description": "Grow leads more effectively and automate tasks by incorporating meeting data into your CRM.",
+      "link": "https://app.hubspot.com/login"
+    },    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/zapier-c2d4295c6901890a209b9a81f362dd7b78a8dbea93ee925b13a8fddcdecdb70b.png",
+      "title": "Zapier",
+      "description": "Consolidate your workflows by connecting Calendly and creating automations with all your favorite apps.",
+      "link": "https://zapier.com/app/login"
+    },    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/paypal-68c62cb9c712dd3440231c109596b9dc85a2e17cf29b332dbbc711e07aa387ee.png",
+      "title": "PayPal",
+      "description": "Collect payments for Calendly meetings by connecting your PayPal account and securely consolidate all your transactions.",
+      "link": "https://www.paypal.com/in/signin"
+    },    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/intercom-6a3a261ef6d37bd49b33c3e8d1a2342adc5bcbbd8277a9fac5f68046c4a8016a.png",
+      "title": "Intercom",
+      "description": "Drive more growth at every stage of the lifecycle by embedding scheduling into Intercom&#39;s in-app experience.",
+      "link": "https://www.intercom.com/"
+    },    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/stripe-46a237b54d2c461b24977727e9648fdd9ad7d8b65ae977f6f428c3627624a9c1.png",
+      "title": "Stripe",
+      "description": "Consolidate billing and reduce no-shows by collecting credit card payments as invitees schedule meetings.",
+      "link": "https://stripe.com/en-in"
+    },    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/gotomeeting-b5a3cba0a2124d5367bca7e795a355b601da2b07946cc6730478278974744a39.png",
+      "title": "GoToMeeting",
+      "description": "Automatically generate and include GoToMeeting conferencing and dial-in details in new Calendly events.",
+      "link": "https://www.goto.com/meeting"
+    },    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/google-analytics-31b0d117360f528976d1232f0c2f05f58018599734e301e442e008bf85fcc386.svg",
+      "title": "Google Analytics",
+      "description": "Measure ROI more effectively by adding Calendly data to your conversion metrics.",
+      "link": "https://analytics.google.com/analytics/web/#/p277273797/reports/intelligenthome"
+    },    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/calendly-api-fd74715521673560419c13ad1654b3cad1ce3fcc095f75cbb7eec856edd86cfd.png",
+      "title": "The Calendly API",
+      "description": "Leverage Calendly’s API for a custom Calendly integration within your product",
+      "link": "https://developer.calendly.com/"
+    }
+],
+"Apps": [
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/calendly-for-iphone-3938354b46ec02714738985e8ba7c86c2676d0b6439b6e00b515e906fa4d71b9.png",
+      "title": "Calendly for iPhone",
+      "description": "Schedule meetings from your iPhone and manage upcoming events while on the go.",
+      "link": "https://apps.apple.com/app/apple-store/id1451094657?pt=118425599&mt=8&ct=integrations&utm_source=calendly&utm_medium=integrations&utm_campaign=integrations&utm_content=ios&utm_term=ios"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/calendly-for-android-2c7dbfece779154b4d9c7291662fdb634b0bb6e40048229a8982eaf1ac5d41d3.png",
+      "title": "Calendly for Android",
+      "description": "Schedule meetings natively in Android apps and view upcoming appointments on the go.",
+      "link": "https://play.google.com/store/apps/details?id=com.calendly.app&hl=en_US&gl=US&utm_source=calendly&utm_medium=integrations&utm_campaign=integrations&utm_content=android&utm_term=android"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/calendly-for-outlook-217b0c81027a4efc20a0c4e5cd0a0cace8c62f7f8cfc31ed83dd7eb649676683.png",
+      "title": "Calendly for Outlook",
+      "description": "Quickly access and share your availability without leaving your Outlook inbox.",
+      "link": "https://appsource.microsoft.com/en-us/product/office/WA104381446?utm_source=calendly&utm_medium=integrations&utm_campaign=integrations&utm_content=outlook_addin&utm_term=outlook_addin"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/calendly-for-chrome-c6a75cbeee330ca01e87e4e1daf7978ad89d36579d2a8cfc9c27dab67bcf5c0b.png",
+      "title": "Calendly for Chrome",
+      "description": "Access your Calendly links fast from any of your tabs and natively inside your Gmail inbox.",
+      "link": "https://chrome.google.com/webstore/detail/calendly-meeting-scheduli/cbhilkcodigmigfbnphipnnmamjfkipp?utm_source=calendly&utm_medium=integrations&utm_campaign=calendly_for_chrome&utm_content=chrome&utm_term=chrome"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/calendly-for-firefox-b01b4598f267c4a55d7a267ae8c2556e4631d4b30cfd92835fc135adb8b47a61.png",
+      "title": "Calendly for Firefox",
+      "description": "Send Calendly links right from your browser without switching tabs.",
+      "link": "https://addons.mozilla.org/en-US/firefox/addon/calendly-meeting-scheduling/?utm_source=calendly&utm_medium=integrations&utm_campaign=integrations&utm_content=firefox&utm_term=firefox"
+    }
+],
+"Calenders": [
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/google-calendar-53927bf460f12e274ba6884327624839bf573ecf3d3dbe57d5d72be3de791f52.png",
+      "title": "Google Calendar",
+      "description": "Leverage the simplicity of Google Calendar and take advantage of Google Meet.",
+      "link": "https://calendly.com/app/calendar_connections"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/outlook-743376c8920f92b16fb328de08c4577c6dbfafd8cd5ab185726c801fb35b19c9.png",
+      "title": "Outlook Desktop",
+      "description": "Modernize your corporate email account with automated scheduling.",
+      "link": "https://calendly.com/app/calendar_connections"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/o365-2786a75e6f444a7066b00850e9069971cfa3c5d9ceb59141ceac5a3880fbf5bd.png",
+      "title": "Office 365 / Outlook.com",
+      "description": "Combine Microsoft&#39;s cloud-based calendar with automated scheduling.",
+      "link": "https://calendly.com/app/calendar_connections"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/exchange-28d5cd23f14b2780e6d2d336586a9d62b9c2d5444bffad9c608528866050352e.png",
+      "title": "Exchange Calendar",
+      "description": "Easily integrate your offline work calendar with automated scheduling—no IT team required!",
+      "link": "https://calendly.com/app/calendar_connections"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/icloud-d37c0e1db897b5f7f7dd08446f3f354a718cb354cd6c6223a0b2ffed333750f7.png",
+      "title": "iCloud",
+      "description": "Utilize automated scheduling across all your Apple devices with a direct integration",
+      "link": "https://zoom.us/"
+    }
+],
+"CRM & Sales Tools": [
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/salesforce-1366e81c3d4bb2df6fe1717401a84fff09af0ed135b4c52e9d5d70b5047050ba.png",
+      "title": "Salesforce",
+      "description": "Combine the superpowers of Salesforce and Calendly to create an unstoppable sales and marketing operation.",
+      "link": "https://calendly.com/integrations/salesforce"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/hubspot-f0cb47cc9980e2d72ff3f4fccafc28df3d0cfe613ddcd84eb24d96a393860ab8.png",
+      "title": "HubSpot",
+      "description": "Grow leads more effectively and automate tasks by incorporating meeting data into your CRM.",
+      "link": "https://calendly.com/integrations/hubspot"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/honeybook-98c12c2f1fb768fbbe9c78a594b9d10469deb2d3596eba6bff38cc70ad28d2e9.png",
+      "title": "Honeybook",
+      "description": "Manage better client relationships by improving their scheduling experience and syncing communications with their account.",
+      "link": "https://www.honeybook.com/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/zoho-crm-32836ae19b13d6fb051dd676a62b74d22039063c1a84eb81d503de6e9a0520c4.png",
+      "title": "Zoho CRM",
+      "description": "Engage with prospects better by updating your CRM with Calendly events.",
+      "link": "https://www.zoho.com/crm/login.html"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/pipedrive-5c9690078fa44852364307a26be9ac16ffd41ab71a0d4e771b9a5d2d54bb70ba.png",
+      "title": "Pipedrive",
+      "description": "Sell more when your sales CRM automatically updates as leads schedule meetings.",
+      "link": "https://www.pipedrive.com/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/keap-e8ffe3e65af58556e03818783891e0debfafebe3acc7b84c8c0ff1bc5c536a10.png",
+      "title": "Keap",
+      "description": "Grow your leads more effectively and send smarter follow-ups and reminders with every Calendly meeting.",
+      "link": "https://keap.com/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/close-4ef104f0538edbd3a6e8bb95128b52abae19d0605ac8cd0554a8d16f577f5e6e.png",
+      "title": "Close",
+      "description": "Optimize your sales workflow with automated updates to your sales CRM as leads schedule meetings.",
+      "link": "https://www.close.com/"
+    }
+  ],
+"Video Conference": [
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/zoom-52942e8375de76156daad72591699b19e8bc59922312ceae2cbcdd8ddd8c7ae1.png",
+      "title": "Zoom",
+      "description": "Automatically generate unique Zoom video conferencing and dial-in details in new Calendly events.",
+      "link": "https://zoom.us/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/list/msteams-7c3534ab3f203f69da4ec0422d8e4f8fc8d070afc808aaa3cddc510a3d0048ad.png",
+      "title": "Microsoft Teams",
+      "description": "Connect effortlessly by automatically adding your Microsoft Teams conference details to every Calendly event.",
+      "link": "https://www.microsoft.com/en-in/microsoft-teams/log-in"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/gotomeeting-b5a3cba0a2124d5367bca7e795a355b601da2b07946cc6730478278974744a39.png",
+      "title": "GoToMeeting",
+      "description": "Create a better demo or webinar signup experience by incorporating GoToMeeting conferencing details into Calendly.",
+      "link": "https://www.goto.com/meeting"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/join-me-0d08034e537cc84f4576befca0b52ed144d6d9b8c991349d4792f94bad867184.png",
+      "title": "Join.me",
+      "description": "Utilize your personalized join.me URL by automatically adding it to all your Calendly events.",
+      "link": "https://www.join.me/login.aspx?clusterid=14&returnurl=https%3A%2F%2Fwww.join.me%2Ffederated%2Floginsso.aspx%3Flang%253Den-US&headerframe=https%3A%2F%2Fwww.join.me%2Ffederated%2Fresources%2Fheaderframe2.aspx&productframe=https%3A%2F%2Fwww.join.me%2Ffederated%2Fresources%2Fdefaultframe.aspx&lang=en-US&skin=joinme&regtype=X&trackingproducttype=1&trackinguniqueid=64f86d2e-b265-4b1e-ac27-b85a80611589&oauthautologin=1"
+    }
+  ],
+  "Marketing Tools": [
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/intercom-6a3a261ef6d37bd49b33c3e8d1a2342adc5bcbbd8277a9fac5f68046c4a8016a.png",
+      "title": "Intercom",
+      "description": "Drive more growth at every stage of the lifecycle by embedding scheduling into Intercom&#39;s in-app experience.",
+      "link": "https://www.intercom.com/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/leadpages-a17612d43d07fb1308561b245024e62420d87adad85d25e48f76664f05660e2f.png",
+      "title": "Leadpages",
+      "description": "Increase sales velocity and generate more wins by embedding scheduling on your landing page.",
+      "link": "https://www.leadpages.com/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/mailchimp-bf548120a54fa403a17662225ddb7bf9e9dc9f32656afbce42a21034e1310392.png",
+      "title": "Mailchimp",
+      "description": "Create more personalized campaigns by automatically sending Calendly invitees to the right lists.",
+      "link": "https://mailchimp.com/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/active-campaign-da79cef8c5c5a86a64b75debea6665a686825d41819df517f67a1dc90bef1cc7.png",
+      "title": "ActiveCampaign",
+      "description": "Build more meaningful connections by using meeting data to send the right message at the right time.",
+      "link": "https://www.activecampaign.com/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/autopilot-d463ec3df8b1f6ce1db577f0818ef88ff2560235afe3e9444a1f27f99bee4cc2.png",
+      "title": "Autopilot",
+      "description": "Capture and convert more leads by automating scheduling to create a smoother customer journey.",
+      "link": "https://journeys.autopilotapp.com/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/wistia-2d3a30fc1ac39fbaf2556356c3b3335329031d78b07e42147980653e1918ffe1.png",
+      "title": "Wistia",
+      "description": "Convert viewers into leads from any video by embedding Calendly as a call to action.",
+      "link": "https://wistia.com/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/drip-18759c87b19bb2b36ba6865fd3f617783f1c19aa7a399c70d56b75228b538f42.png",
+      "title": "Drip",
+      "description": "Increase conversions by using Calendly meetings to trigger workflows, add user tags, or send a campaign.",
+      "link": "https://www.drip.com/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/videoask-4f5ba16b99d494a0644e298aff2aaa016d4185ed30ba3e4f1492898852513ea4.png",
+      "title": "Videoask",
+      "description": "Capture more leads by integrating scheduling into your video chat widgets.",
+      "link": "https://www.videoask.com/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/plusthis-db28ba0d96ad2bdfb207392784cf7857e6aa1a3a044ce9001fbe87deeaecac30.png",
+      "title": "Plusthis",
+      "description": "Level up your marketing automation by updating contacts and campaigns as your leads schedule Calendly meetings.",
+      "link": "https://www.plusthis.com/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/chameleon-660f983de8e6699d09b6d3bed55050d471f8d8729ef2118d9e52b6ca1391633b.png",
+      "title": "Chameleon",
+      "description": "Boost product engagement by tailoring product funnels to your user’s meetings.",
+      "link": "https://www.chameleon.io/"
+    },
+    {
+      "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/livechat-67cfc3be5a394040c60c7990358f83f0e02a3876888107c7cc9380c561eb2077.png",
+      "title": "LiveChat",
+      "description": "Engage with customers more effectively by offering scheduling right when they want to chat.",
+      "link": "https://www.livechat.com/"
+    }
+  ],
+  "ATS & Recruiting": [
+      {
+        "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/greenhouse-387e7ae8bbf73458f5de0e4f2a11f914376f42c9fac4074f950c56901bad0edc.png",
+        "title": "Greenhouse",
+        "description": "Improve your candidate experience and integrate automated scheduling into your interview process.",
+        "link": "https://www.greenhouse.io/"
+      },
+      {
+        "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/jazzhr-5686171d9019428b52d2de5e72c024de36692f14d63d6a1d5fb52248d9f4c520.png",
+        "title": "JazzHR",
+        "description": "Empower candidates to self-select their preferred interview time with recruiters and hiring managers.",
+        "link": "https://www.jazzhr.com/"
+      },
+      {
+        "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/roborecruiter-8f8f7aad1308923e29a292b0c7b34808eac007767609085e479365901c10746d.png",
+        "title": "RoboRecruiter",
+        "description": "Engage with more candidates and move most qualified applicants through your interview pipeline more quickly.",
+        "link": "https://www.roborecruiter.ai/solutions"
+      },
+      {
+        "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/gem-8ccfc8d016405d2c0305f7a3c90a12aac593a85faf07e007e647708b07743a34.png",
+        "title": "Gem",
+        "description": "Drive better hiring decisions with predictive analytics by supplementing candidate profiles with interview scheduling.",
+        "link": "https://www.gem.com/"
+      }
+    ],
+    "Payment Processors": [
+      {
+        "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/paypal-68c62cb9c712dd3440231c109596b9dc85a2e17cf29b332dbbc711e07aa387ee.png",
+        "title": "PayPal",
+        "description": "Collect payments for Calendly meetings by connecting your PayPal account and securely consolidate all your transactions.",
+        "link": "https://www.paypal.com/in/home"
+      },
+      {
+        "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/stripe-46a237b54d2c461b24977727e9648fdd9ad7d8b65ae977f6f428c3627624a9c1.png",
+        "title": "Stripe",
+        "description": "Consolidate billing and reduce no-shows by collecting credit card payments as invitees schedule meetings.",
+        "link": "https://stripe.com/en-in"
+      }
+    ],
+    "Analytics": [
+      {
+        "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/google-analytics-31b0d117360f528976d1232f0c2f05f58018599734e301e442e008bf85fcc386.svg",
+        "title": "Google Analytics",
+        "description": "Measure webpage traffic and create better user funnels by adding Calendly data to your conversion metrics.",
+        "link": "https://analytics.google.com/analytics/web/#/p277273797/reports/intelligenthome"
+      },
+      {
+        "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/facebook-pixel-85d1bbbc9712593e2118c49c80ffc2101a1058db7ec88d86190ce7d293683f92.png",
+        "title": "Meta Pixel",
+        "description": "Create better retargeting and lookalike audiences by adding your Facebook pixel to your Calendly scheduling pages",
+        "link": "https://www.facebook.com/business/tools/meta-pixel"
+      }
+    ],
+    "API & Connectors": [
+        {
+          "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/zapier-c2d4295c6901890a209b9a81f362dd7b78a8dbea93ee925b13a8fddcdecdb70b.png",
+          "title": "Zapier",
+          "description": "Consolidate your workflows by connecting Calendly and creating automations with all your favorite apps.",
+          "link": "https://zapier.com/platform/login"
+        },
+        {
+          "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/calendly-api-fd74715521673560419c13ad1654b3cad1ce3fcc095f75cbb7eec856edd86cfd.png",
+          "title": "The Calendly API",
+          "description": "Leverage Calendly’s API for a custom Calendly integration within your product.",
+          "link": "https://developer.calendly.com/"
+        },
+        {
+          "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/automate-io-ea15fe28fe26d85f8219efed6a2e60211380cf8982576b203ac55e3563a9f70c.png",
+          "title": "Automate.io",
+          "description": "Automate marketing, sales and business processes by incorporating Calendly into simple and advanced workflows.",
+          "link": "https://automate.io/"
+        },
+        {
+          "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/tray-io-5f6cd0ab5a63c301d5453b5aa2db83b2f88541b8b821001da919268c4fc39996.png",
+          "title": "Tray.io",
+          "description": "Build a better growth engine and integrate your entire stack with Calendly.",
+          "link": "https://tray.io/"
+        },
+        {
+          "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/integromat-3069f93102874f8f17990ca5126a20551a00c1574778a0e84328a867713f14b1.png",
+          "title": "Integromat",
+          "description": "Automate workflows between any app and Calendly using HTTP/SOAP and JSON modules.",
+          "link": "https://www.make.com/en"
+        },
+        {
+          "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/leadsbridge-4f6dc9b0ca10614ab80023d9f4de9b7037a2c67878801e49c51120d30f50659c.png",
+          "title": "LeadsBridge",
+          "description": "Optimize your lead generation and remarketing campaigns, track offline conversions and measure ROAS by connecting Calendly to your sales and marketing tools.",
+          "link": "https://leadsbridge.com/"
+        },
+        {
+          "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/workato-061093d809af6d294408dc807f1470266161b90759e63de7fd7b03cb452a3473.png",
+          "title": "Workato",
+          "description": "Leverage intelligent automations by sending Calendly data to your entire tech stack.",
+          "link": "https://www.workato.com/"
+        },
+        {
+          "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/zoho-flow-c178ae0d2699921d6350185e10ce993aaa8e298fb7596f81634cca62b7dd300e.png",
+          "title": "Zoho Flow",
+          "description": "Use Zoho Flow to integrate Calendly with 400+ apps without writing code. Automate any tasks that keep you away from what you do best.",
+          "link": "https://www.zoho.com/flow/"
+        }
+      ],
+      "Others": [
+          {
+            "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/slack-aa5602409ec35c38a09070895ba05457e3a4f299b26bc876ea0269728d3abbb9.png",
+            "title": "Slack",
+            "description": "Automate smarter workflows and incorporate Calendly right into your organization&#39;s Slack channels.",
+            "link": "https://slack.com/intl/en-in/"
+          },
+          {
+            "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/asana-d54198b0759c2558ca71bf515e2b6b6cb8561121789c93ef17c59477166551e8.png",
+            "title": "Asana",
+            "description": "Stay more organized by creating and updating tasks as Calendly meetings come through.",
+            "link": "https://asana.com/"
+          },
+          {
+            "image": "https://assets.calendly.com/assets/landing/integrations/card_icons/google-sheets-6633c595f4fc9c34f1905eb6064db3d69d7246d5ef2a67eae58937ff513aa403.png",
+            "title": "Google Sheets",
+            "description": "Run more robust reports by automatically collecting Calendly data into a spreadsheet.",
+            "link": "https://www.google.com/sheets/about/"
+          }
+        ]
+}
+
+
+
+    

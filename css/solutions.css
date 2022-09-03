@@ -1,0 +1,80 @@
+* {
+  /* font-family: cursive; */
+  padding: 0%;
+  color: rgb(54, 54, 54);
+  margin: 0%;
+  font-family: 'Montserrat', sans-serif;
+}
+.head-div {
+  text-align: center;
+  padding-top: 10vh;
+  line-height: 5vh;
+  height: 15vh;
+}
+#imgs {
+  width: 50px;
+  height: 50px;
+  margin-left: 80px;
+}
+.middle-div {
+  padding-left: 18vw;
+  display: flex;
+  width: 70vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  font-size: 15.5px;
+}
+.mid-cls {
+  padding-top: 5vh;
+  border: 1px solid grey;
+  height: 50vh;
+  width: 35vh;
+  border-radius: 10px;
+  margin: 10px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+.mid-cls:hover {
+  cursor: pointer;
+}
+/* center div */
+.center {
+  padding-top: 15vh;
+  text-align: center;
+  line-height: 70px;
+}
+input {
+  height: 50px;
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+}
+button {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid skyblue;
+  background-color: skyblue;
+}
+/* center div ends */
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .mid-cls {
+    padding-top: 5vh;
+    border: 1px solid grey;
+    height: 40vh;
+    width: 35vh;
+    border-radius: 10px;
+    margin: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+  }
+}

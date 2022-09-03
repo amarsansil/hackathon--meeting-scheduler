@@ -1,0 +1,202 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+#top_bar,main{
+        font-family: 'Montserrat', sans-serif;
+}
+#top_bar{
+    width: 100%;
+    background-color: #FAFAFA;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#top_bar>div{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+#top_bar>div>h1{
+    color: #444752;
+    font-size: 26px;
+}
+#top_bar>div>p{
+    color: #656A72;
+    font-size: 13px;
+    margin: 0px;
+    padding: 8px 0px 0px;
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+#buttons_bar>p{
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+main a{
+    color: #08a9fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+.image_btn{
+    background-size: 7%;
+}
+input#popular_btn{
+    background: #ccc url('https://assets.calendly.com/assets/landing/integrations/category_icons/popular-90f3f43b2e12f9ebb7e0c2a054ee1cb3f8b092992d94dd04c517f1c668ac6408.svg') no-repeat center left;
+}
+input#apps_btn{
+    background: #ccc url('https://assets.calendly.com/assets/landing/integrations/category_icons/apps-4983bf02d57d0c04cd9618cc668de346dcd7d2ece86e351d516c635612b89b98.svg') no-repeat center left;
+}
+input#calendars_btn{
+    background: #ccc url('https://assets.calendly.com/assets/landing/integrations/category_icons/calendars-a86d545e038f60855125a0bd3eb6dc917a886ea4aa5fa1f5c8815430027382f7.svg') no-repeat center left;
+}
+input#crm_btn{
+    background: #ccc url('https://assets.calendly.com/assets/landing/integrations/category_icons/crms-1d66b9f0da7fbfb6d0c6000eb32962c01723a6d43f45be49e8e9baf48989d114.svg') no-repeat center left;
+}
+input#video_btn{
+    background: #ccc url('https://assets.calendly.com/assets/landing/integrations/category_icons/video-conference-a9c1c647f94a294bd1a9a184367397b83316d8d1bf73fe5e81a2aec2f95ef2c8.svg') no-repeat center left;
+}
+input#market_btn{
+    background: #ccc url('https://assets.calendly.com/assets/landing/integrations/category_icons/marketing-c7fbb9cdaaf09ca739c231dd981df3e72e6d89c30da21bf7c7b4e1ebc979b9de.svg') no-repeat center left;
+}
+input#ats_btn{
+    background: #ccc url('https://assets.calendly.com/assets/landing/integrations/category_icons/ats-recruiting-46a51d53af927489d84fe798d9934d9483723215e164636b42326cf6edfe3636.svg') no-repeat center left;
+}
+input#payment_btn{
+    background: #ccc url('https://assets.calendly.com/assets/landing/integrations/category_icons/payments-cbe2fb9d773c2e152073a7805c1e36ac2cb8af6570c20f7dd6e46018d08790e9.svg') no-repeat center left;
+}
+input#analyt_btn{
+    background: #ccc url('https://assets.calendly.com/assets/landing/integrations/category_icons/analytics-227a0d724e848ce4d637a6c3643d86d00c1b45ecf9b1853158cc248486b14cbd.svg') no-repeat center left;
+}
+input#api_btn{
+    background: #ccc url('https://assets.calendly.com/assets/landing/integrations/category_icons/api-connectors-4a315ffd702846c3be41826f83559844eb25dd655124e2380834958252b04e72.svg') no-repeat center left;
+}
+input#others_btn{
+    background:  url('https://assets.calendly.com/assets/landing/integrations/category_icons/other-c5bc24d5744aab30d6268b958b843d7f442a96a2f1606f88c6ba2718625a64bc.svg') no-repeat center left;
+}
+*:focus {
+    outline:0 !important;
+}
+#buttons_bar{
+    float: left;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+#buttons_bar > input{
+    background-color: transparent;
+    text-align: left;
+    color: #4d5055;
+    font-size:14px ;
+    font-weight: bold;
+    padding: 5px 5px 5px 26px;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    white-space: normal;
+    border-radius: 3px;
+}
+#show_data{
+    float: right;
+}
+#bottom{
+    clear: both;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 100px;
+}
+#bottom>h1{
+    color: #444752;
+    font-size: 24px;
+}
+#bottom>p{
+    color: #656A72;
+    font-size: 13px;
+    margin-top: 0px;
+}
+main table{
+    width: 70%;
+    margin-bottom: 50px;
+}
+td{
+    width: 50%;
+}
+tbody  img{
+    width: 100px;
+}
+td > div{
+    border: 1px solid #ECECEE;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 20px;
+}
+td > div:hover {
+    border: 1px solid #00A2FF;
+  }
+tbody h1{
+    font-size: 14px;
+    color: #666A73;
+}
+tbody p{
+    font-size: 12px;
+    color: #A8A8A8;
+    margin-top: 0px;
+}
+main{
+    width: 70vw;
+    margin: auto;
+}
+#top_img{
+    width: 80px;
+}
+.a_seed{
+    display: none;
+}
+#category_select{
+    color: #656A72;
+    font-size: 14px;
+    width: 70%;
+    height: 40px;
+    margin: auto;
+    display: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #ccc;
+    margin-bottom: 50px;
+}
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+    main{
+        width: 85vw;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    main{
+        width: 90vw;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    main{
+        width: 95vw;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 650px) {
+        #buttons_bar{
+        display: none;
+    }
+    #show_data{
+        width: 100%;
+    }
+    #category_select{
+        display: block;
+    }
+}

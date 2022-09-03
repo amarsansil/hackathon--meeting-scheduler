@@ -1,0 +1,97 @@
+main{
+    width: 85%;
+    margin: auto;
+    color:#444752;
+    margin-top: 15px;
+}
+main a{
+    color: black;
+}
+#top_cont{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#top_cont h1{
+    font-size: 20px;
+    color:#444752;
+    text-align: center;
+    /* margin-top: px; */
+    
+}
+#top_cont button{
+    width: 90px;
+    height: 44px;
+    color: #00A2FF;
+    background-color: white;
+    border: 1px solid #00A2FF;
+    float: left;
+    font-size: 16px;
+}
+#top_cont p{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+hr{
+    border-top: 1px solid #4d5066;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.save_cont button{
+    background-color: #00A2FF;
+    color: white;
+    width: 120px;
+    height: 32px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#form_container{
+    width: 80%;
+    margin: auto;
+    border:2px solid black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+*:focus {
+    outline:0 !important;
+}
+.save_cont{
+    margin-left: 79%;
+}
+#form_top{
+    display: flex;
+}
+#form_top .save_cont{
+    margin-top: 10px;
+    margin-left: 60%;
+}
+#round_color{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    margin-top: 15px;
+}
+#form_top p{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#form_container input,select,textarea{
+    width: 432px;
+    border-radius: 5px;
+    border: 1px solid #d0d0d0;
+}
+#form_container select{
+    width: 440px;
+}
+#form_container input,select{
+    height: 40px;
+}
+#form_container textarea{
+    height: 80px;
+}

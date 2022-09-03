@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <script src="js/signup.js"></script>
+    <link rel="stylesheet" href="css/signup.css" />
+    <link rel="icon" href="https://assets.calendly.com/assets/favicon-6c298004c5e8a7eb846b3a356bc6d036c1a880e5d22163f4f52a7e3d6bb12109.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-image: url('assets/background.png')">
+    <div class="pages">
+        <img src="img/logo.png" />
+        <p>Sign up with MeetBo for free</p>
+    </div>
+    <div style="text-align: center;" class="page">
+        <p style="text-align:center ;">Enter your email to get started.</p>
+        <input type="text" placeholder="Email Address" id="email" /><br /><br />
+
+        <p style="text-align:center ;">Enter your password to get started.</p>
+        <input type="password" placeholder="Password" id="password" /><br /><br />
+        <button style="text-align: center;" id="btn1" onclick="submit()">Get Started</button><br /><br />
+        <hr style="display: flex;">
+        <br>
+        <button style="height: 50px;
+        width: 400px;
+        border-radius: 2px;
+    align-items: center;
+    justify-content: center;"><img src="https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg" style="width: 20px; height: 20px;" /><a href="https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fmail.google.com&service=mail&ec=GAlAFw&flowName=GlifWebSignIn&flowEntry=AddSession">&ensp;Signup with Google</a></button>
+        <button style="height: 50px;
+    width: 400px;
+    border-radius: 2px;
+text-align: center;
+justify-content: center;"><img src="assets/download.png" style="width: 20px; height: 20px;" /><a href="https://account.live.com/messagepage.aspx">&ensp;Signup with Microsoft</a></button>
+
+
+        <p style="text-align:center; padding-top: 5px">Already have an account? <a href="login.html" style="color: #00A2FF">Log in.</a>
+    </div>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">
+        English <i class="arrow down"></i>
+      </button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#Deautch">Deautch</a>
+            <a href="#Portugues">Portugues (Brazil)</a>
+            <a href="#Francias">Francias</a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <title>Calendly</title>
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://assets.calendly.com/assets/favicon-6c298004c5e8a7eb846b3a356bc6d036c1a880e5d22163f4f52a7e3d6bb12109.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/sign_header1.css" />
+</head>
+
+<body>
+    <!-- header start -->
+    <div class="header-div">
+        <img style="height: 30px; width: 50px" src="assets/logo.png" id="header-img" />
+        <div class="header-btn">
+            <button id="head-btn1"><a href="./user.html">Home</a></button>
+            <button id="head-btn1"><a href="ItemEvents.html">Availability</a></button>
+            <button id="head-btn1"><a href="integrations.html">Integration</a></button>
+            <!--      <button id="head-btn1"><a href="#">Help</a></button>-->
+            <div class="dropdown">
+                <button id="head-btn1" class="dropbtn">Account</button>
+                <div class="dropdown-content">
+                    <a href="acc_setting.html">Account Setting</a>
+                    <a href="#"> Billing</a>
+                    <a href="#">Calendar Connection</a>
+                    <a href="#">Users</a>
+                    <a href="#">Privacy And Security Setting</a>
+                    <a href="#">Share your link</a>
+                    <a href="#">Apps</a>
+                    <hr class="clear" />
+                    <a href="login.html" onclick="logout()">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header ends -->
+    <div id="top_cont">
+        <button id="back_button"><i class="fa fa-angle-left"> Back</i></button>
+        <h1>Add Event Type</h1>
+    </div>
+    <hr class="clear">
+    <main>
+
+        <div id="form_container">
+            <div id="form_top">
+                <div id="round_color"></div>
+                <p>What event is this?</p>
+                <div class="save_cont">
+                    <a href="./user.html">Cancel</a>
+                    <button id="save_click2">Save & Click</button>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <label for="event_name">Event name *</label><br>
+                <input id="event_name" type="text" placeholder="Event name"><br><br>
+                <label for="Location">Location *</label><br>
+                <select name="select" id="Location">
+                    <option value="In-person meeting">In-person meeting</option>
+                    <option value="Phone call">Phone call</option>
+                    <option value="Google Meet">Google Meet</option>
+                    <option value="Zoom">Zoom</option>
+                    <option value="Microsoft Teams">Microsoft Teams</option>
+                    <option value="GoToMeeting">GoToMeeting</option>
+                    <option value="Custom">Custom</option>
+                    <option value="Ask Invitee">Ask Invitee</option>
+                </select><br><br>
+                <label for="event_name">Description/Instructions</label><br>
+                <textarea id="desc_box" type="text" placeholder="Write a summary and any details your invitee should know about the event."></textarea><br><br>
+                <label for="event_link">Event link *</label><br>
+                <input type="text" id="event_link" placeholder="Event link"><br><br>
+
+                <label for="event_link">Email Id *</label><br>
+                <input type="text" id="email id" placeholder="Email Id"><br><br>
+                <label for="time_duration">Duration</label><br>
+                <select name="duration" id="time_duration">
+                    <option value="30 M">30 M</option>
+                    <option value="1 Hr">1 Hr</option>
+                    <option value="1.30 Hr">1.30 Hr</option>
+                    <option value="2.00 Hr">2.00 Hr</option>
+                </select><br><br>
+            </div>
+            <hr>
+            <div class="save_cont">
+                <a href="./user.html">Cancel</a>
+                <button id="save_click">Save & Click</button>
+            </div>
+        </div>
+        <hr>
+    </main>
+    <script type="text/javascript" src="./js/form.js"></script>
+    <!-- Start of ChatBot (www.chatbot.com) code -->
+    <script type="text/javascript">
+        window.__be = window.__be || {};
+        window.__be.id = "604afaec012e2e000777fe25";
+        (function() {
+            var be = document.createElement("script");
+            be.type = "text/javascript";
+            be.async = true;
+            be.src =
+                ("https:" == document.location.protocol ? "https://" : "http://") +
+                "cdn.chatbot.com/widget/plugin.js";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(be, s);
+        })();
+    </script>
+    <!-- End of ChatBot code -->
+</body>
+
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <title>Integrations - Calendly</title>
+    <link rel="stylesheet" href="./css/integrations_style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/sign_header1.css" />
+</head>
+<body>
+
+<!-- header start -->
+<div class="header-div">
+    <img style="padding-left: 160px; height: 30px; width: 50px; padding-top: 10px; padding-right: 210px"
+         src="assets/logo.png"
+         alt=""
+    />
+    <div class="header-btn">
+        <button id="head-btn1"><a href="./user.html">Home</a></button>
+        <button id="head-btn1"><a href="ItemEvents.html">Availability</a></button>
+        <button id="head-btn1"><a href="integrations.html">Integrations</a></button>
+<!--        <button id="head-btn1"><a href="#">Help</a></button>-->
+        <div class="dropdown">
+            <button id="head-btn1" class="dropbtn">Account</button>
+            <div class="dropdown-content">
+                <a href="acc_setting.html">Account Setting</a>
+<!--                <a href="#"> Billing</a>-->
+                <a href="#">Calendar Connection</a>
+<!--                <a href="#">Users</a>-->
+<!--                <a href="#">Privacy And Security Setting</a>-->
+<!--                <a href="#">Share your link</a>-->
+                <a href="integrations.html">Apps</a>
+                <hr class="clear" />
+                <a href="index.html" onclick="logout()">Logout</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header ends -->
+     <!-- header starts here -->
+
+<!--     <div id="layout" class="flex">-->
+
+<!--        <div>-->
+<!--            <img style="height: 30px; width: 50px" class="icon"-->
+<!--                src="assets/logo.png"-->
+<!--                alt="">-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <nav>-->
+<!--                <input type="checkbox" id="check">-->
+<!--                <label for="check" class="checkbtn">-->
+<!--                    <i class="fas fa-bars"></i>-->
+<!--                </label>-->
+<!--                &lt;!&ndash; <label class="logo">DesignX</label> &ndash;&gt;-->
+<!--                <ul id="nav_menu">-->
+<!--&lt;!&ndash;                    <li><a class="active" href="features.html">Features</a></li>&ndash;&gt;-->
+<!--                    <li><a href="pricing.html">Pricing</a></li>-->
+<!--                    <li><a href="integrations.html">Integrations</a></li>-->
+<!--                    <li><a href="solutions.html">Solutions</a></li>-->
+<!--                    <li><a href="teams.html">For Team</a></li>-->
+<!--                    &lt;!&ndash; <li class="signupButton"><a href="#">Sign up</a></li> &ndash;&gt;-->
+<!--                    <li><button class="signupButton">-->
+<!--                        <a href="signup.html">Sign Up</a>-->
+<!--                      </button></li>-->
+<!--                    <li><a href="login.html">Log in</a></li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+<!--        </div>-->
+<!--        <section></section>-->
+<!--    </div>-->
+
+    <!-- header ends here  -->
+    <div id="top_bar">
+        <div>
+            <img id="top_img"/>
+            <h1 id="top_h1">Powerful Scheduling Apps & Integrations</h1>
+            <p id="top_p">Integrate Calendly with your current tools to boost productivity</p>
+        </div>
+    </div>
+    <main>
+        <div id="middle">
+            <select id="category_select">
+                <option value="Popular">Popular</option>
+                <option value="Apps">Apps</option>
+                <option value="Calenders">Calenders</option>
+                <option value="CRM & Sales Tools">CRM & Sales Tools</option>
+                <option value="Video Conference">Video Conference</option>
+                <option value="Marketing Tools">Marketing Tools</option>
+                <option value="ATS & Recruiting">ATS & Recruiting</option>
+                <option value="Payment Processors">Payment Processors</option>
+                <option value="Analytics">Analytics</option>
+                <option value="API & Connectors">API & Connectors</option>
+                <option value="Others">Others</option>
+            </select>
+            <div id="buttons_bar">
+                <p><strong>CATEGORIES</strong></p>
+                <input type="submit" id="popular_btn" class="image_btn" value="Popular"/>
+                <input type="submit" id="apps_btn" class="image_btn" value="Apps"/>
+                <input type="submit" id="calendars_btn" class="image_btn" value="Calenders"/>
+                <input type="submit" id="crm_btn" class="image_btn" value="CRM & Sales Tools"/>
+                <input type="submit" id="video_btn" class="image_btn" value="Video Conference"/>
+                <input type="submit" id="market_btn" class="image_btn" value="Marketing Tools"/>
+                <input type="submit" id="ats_btn" class="image_btn" value="ATS & Recruiting"/>
+                <input type="submit" id="payment_btn" class="image_btn" value="Payment Processors"/>
+                <input type="submit" id="analyt_btn" class="image_btn" value="Analytics"/>
+                <input type="submit" id="api_btn" class="image_btn" value="API & Connectors"/>
+                <input type="submit" id="others_btn" class="image_btn" value="Others"/>
+            </div>
+            <!-- Calling all the data as cells -->
+            <table id="show_data">
+                <tbody></tbody>
+            </table>
+        </div>
+        <div id="bottom">
+            <h1>Can't find what you need?</h1>
+            <p>Use a connector like Zapier or build a custom app with our API.</p>
+            <a href="#">See how</a>
+        </div>
+    </main>
+   
+    <!-- footer ends here -->
+
+    <div id="footer_top">
+        <div class="flex footer_row">
+            <div style="padding-left: 720px; padding-bottom: 10px">
+                <select id="dropdown" data-placeholder="Language;">
+                    <option value="English">English</option>
+                    <option value="English">Francais</option>
+                    <option value="English">Espanol</option>
+                    <option value="English">Deutsch</option>
+                    <option value="English">Portugues</option>
+                </select>
+            </div>
+        </div>
+
+        <hr>
+    </div>
+
+    <div id="footer">
+        <div class=" main_row flex">
+
+            <div class="fotr_col_1">
+                <h3>Product</h3>
+                <a href="#">
+                    <li>Features</li>
+                </a>
+                <a href="#">
+                    <li>
+                        Integrations
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        For Teams
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Plans
+                    </li>
+                </a>
+            </div>
+            <div class="fotr_col_2">
+                <h3>Solutions</h3>
+                <a href="#">
+                    <li>Sales + Marketing</li>
+                </a>
+                <a href="#">
+                    <li>
+                        Education
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Interview Scheduling
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Customer Success
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Consultants
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Leaders
+                    </li>
+                </a>
+            </div>
+            <div class="fotr_col_3">
+                <h3>Resources</h3>
+                <a href="">
+                    <li>Resource Library</li>
+                </a>
+                <a href="">
+                    <li>Developer Tools</li>
+                </a>
+                <a href="">
+                    <li>Help Center</li>
+                </a>
+                <a href="">
+                    <li>API Reference</li>
+                </a>
+                <a href="">
+                    <li>Video Tutorials</li>
+                </a>
+                <a href="">
+                    <li>Community</li>
+                </a>
+                <a href="">
+                    <li>Cookie Opt-Out</li>
+                </a>
+            </div>
+            <div class="fotr_col_4">
+                <h3>About Us</h3>
+                <a href="">
+                    <li>Security</li>
+                </a>
+                <a href="">
+                    <li>Jobs</li>
+                </a>
+                <a href="">
+                    <li>Location</li>
+                </a>
+                <a href="">
+                    <li>Blog</li>
+                </a>
+            </div>
+            <div class="fotr_col_5">
+                <h3>Join Us On</h3>
+                <ul id="share_icon">
+                    <li>
+                        <img src="https://assets.website-files.com/5e6c01bb5212506d6c119069/5e6c01bb8abd7762ed7d8e63_twitter.svg"
+                            alt="twitter">
+                    </li>
+                    <li><img src="https://assets.website-files.com/5e6c01bb5212506d6c119069/5e6c01bb8abd7768627d8e5d_linkedin.svg"
+                            alt="linkedin"></li>
+                    <li><img src="https://assets.website-files.com/5e6c01bb5212506d6c119069/5e802c87d802d6155e87a90f_angel%20list.svg"
+                            alt="angel.co"></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div id="credit_bar">
+            <div>
+                <p><span>© 2022 MeetBo</span>
+                    We take the work out of connecting with others so you can accomplish more.</p>
+                <div>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Terms</a></li>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer starts here --> 
+    <script type="text/javascript" src="./js/integrations_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,828 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+body>#container {
+    z-index: 1;
+}
+
+#pricing-form {
+    text-align: center;
+    line-height: 15px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#pricing-form>form>input {
+    height: 50px;
+    width: 280px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #00A2FF;
+    margin-top: 30px;
+}
+
+#pricing-form>form>button {
+    height: 54px;
+    width: 120px;
+    background: #00A2FF;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #00A2FF;
+    margin-top: 30px;
+}
+
+#pricing-form-bottomline {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#pricing-form-upgrade {
+    font-size: 18px;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid gray;
+    margin-top: 2px;
+}
+
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: all 0.2s;
+}
+
+span {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.checkbox:checked+.toggle::after {
+    left: 26px;
+}
+
+.checkbox:checked+.toggle {
+    background-color: #00A2FF;
+}
+
+#grid-cont {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 3px;
+    background-color: #f3f4f5;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+#grid-cont>div {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+.item1 {
+    grid-column: 1 / span 2;
+}
+
+#bill {
+    position: relative;
+    top: 90%;
+}
+
+button {
+    background-color: #00A2FF;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+.pri-fbody {
+    display: grid;
+    font-size: 16px;
+    font-weight: 300;
+    width: 76%;
+    margin: auto;
+    grid-template: "aa aa aa aa" "ee bb cc dd" "ff gg hh ii" "jj kk ll mm" "nn oo pp qq" "rr ss tt uu" "vv ww xx yy" "zz aaa bbb ccc" "ddd eee fff ggg" "hhh iii jjj kkk" "lll mmm nnn ooo" "ppp qqq rrr sss" "ttt uuu vvv www" "xxx yyy zzz aaaa" "bbbb cccc dddd eeee" "ffff gggg hhhh iiii" "jjjj jjjj jjjj jjjj" "kkkk llll mmmm nnnn" "oooo pppp qqqq rrrr" "ssss tttt uuuu vvvv" "wwww xxxx yyyy zzzz" "aaaaa bbbbb ccccc ddddd" "eeeee fffff ggggg hhhhh" "iiiii jjjjj kkkkk lllll" "mmmmm nnnnn ooooo ppppp" "qqqqq rrrrr sssss ttttt" "uuuuu vvvvv wwwww xxxxx" "yyyyy zzzzz aaaaaa bbbbbb" "cccccc dddddd eeeeee ffffff" " gggggg hhhhhh iiiiii jjjjjj" " kkkkkk llllll mmmmmm nnnnnn" "oooooo pppppp qqqqqq rrrrrr" "ssssss ssssss ssssss ssssss" "tttttt uuuuuu vvvvvv wwwwww" "xxxxxx yyyyyy zzzzzz a" "b c d e";
+}
+
+.pri-fbody>div {
+    border: .5px solid rgb(231, 228, 228);
+    text-align: center;
+    padding: 10px;
+}
+
+.pri-fea {
+    grid-area: aa;
+    border-top-left-radius: 10px;
+}
+
+.pri-cal {
+    grid-area: ee;
+}
+
+.pri-cal1 {
+    grid-area: bb;
+}
+
+.pri-cal2 {
+    grid-area: cc;
+}
+
+.pri-cal3 {
+    grid-area: dd;
+}
+
+.pri-cal4 {
+    grid-area: ff;
+}
+
+.pri-cal5 {
+    grid-area: gg;
+}
+
+.pri-cal6 {
+    grid-area: hh;
+}
+
+.pri-cal7 {
+    grid-area: ii;
+}
+
+.pri-cal8 {
+    grid-area: jj;
+}
+
+.pri-cal9 {
+    grid-area: kk;
+}
+
+.pri-cal10 {
+    grid-area: ll;
+}
+
+.pri-cal11 {
+    grid-area: mm;
+}
+
+.pri-cal12 {
+    grid-area: nn;
+}
+
+.pri-cal13 {
+    grid-area: oo;
+}
+
+.pri-cal14 {
+    grid-area: pp;
+}
+
+.pri-cal15 {
+    grid-area: qq;
+}
+
+.pri-cal16 {
+    grid-area: rr;
+}
+
+.pri-cal17 {
+    grid-area: ss;
+}
+
+.pri-cal18 {
+    grid-area: tt;
+}
+
+.pri-cal19 {
+    grid-area: uu;
+}
+
+.pri-cal20 {
+    grid-area: vv;
+}
+
+.pri-cal21 {
+    grid-area: ww;
+}
+
+.pri-cal22 {
+    grid-area: xx;
+}
+
+.pri-cal23 {
+    grid-area: yy;
+}
+
+.pri-cal24 {
+    grid-area: zz;
+}
+
+.pri-cal25 {
+    grid-area: aaa;
+}
+
+.pri-cal26 {
+    grid-area: bbb;
+}
+
+.pri-cal27 {
+    grid-area: ccc;
+}
+
+.pri-cal28 {
+    grid-area: ddd;
+}
+
+.pri-cal29 {
+    grid-area: eee;
+}
+
+.pri-cal30 {
+    grid-area: fff;
+}
+
+.pri-cal31 {
+    grid-area: ggg;
+}
+
+.pri-cal32 {
+    grid-area: hhh;
+}
+
+.pri-cal33 {
+    grid-area: iii;
+}
+
+.pri-cal34 {
+    grid-area: jjj;
+}
+
+.pri-cal35 {
+    grid-area: kkk;
+}
+
+.pri-cal36 {
+    grid-area: lll;
+}
+
+.pri-cal37 {
+    grid-area: mmm;
+}
+
+.pri-cal38 {
+    grid-area: nnn;
+}
+
+.pri-cal39 {
+    grid-area: ooo;
+}
+
+.pri-cal40 {
+    grid-area: ppp;
+}
+
+.pri-cal41 {
+    grid-area: qqq;
+}
+
+.pri-cal42 {
+    grid-area: rrr;
+}
+
+.pri-cal43 {
+    grid-area: sss;
+}
+
+.pri-cal44 {
+    grid-area: ttt;
+}
+
+.pri-cal45 {
+    grid-area: uuu;
+}
+
+.pri-cal46 {
+    grid-area: vvv;
+}
+
+.pri-cal47 {
+    grid-area: www;
+}
+
+.pri-cal48 {
+    grid-area: xxx;
+}
+
+.pri-cal49 {
+    grid-area: yyy;
+}
+
+.pri-cal50 {
+    grid-area: zzz;
+}
+
+.pri-cal51 {
+    grid-area: aaaa;
+}
+
+.pri-cal52 {
+    grid-area: bbbb;
+}
+
+.pri-cal53 {
+    grid-area: cccc;
+}
+
+.pri-cal54 {
+    grid-area: dddd;
+}
+
+.pri-cal55 {
+    grid-area: eeee;
+}
+
+.pri-cal56 {
+    grid-area: ffff;
+}
+
+.pri-cal57 {
+    grid-area: gggg;
+}
+
+.pri-cal58 {
+    grid-area: hhhh;
+}
+
+.pri-cal59 {
+    grid-area: iiii;
+}
+
+.pri-cal60 {
+    grid-area: jjjj;
+}
+
+.pri-cal61 {
+    grid-area: kkkk;
+}
+
+.pri-cal62 {
+    grid-area: llll;
+}
+
+.pri-cal63 {
+    grid-area: mmmm;
+}
+
+.pri-cal64 {
+    grid-area: nnnn;
+}
+
+.pri-cal65 {
+    grid-area: oooo;
+}
+
+.pri-cal66 {
+    grid-area: pppp;
+}
+
+.pri-cal67 {
+    grid-area: qqqq;
+}
+
+.pri-cal68 {
+    grid-area: rrrr;
+}
+
+.pri-cal69 {
+    grid-area: ssss;
+}
+
+.pri-cal70 {
+    grid-area: tttt;
+}
+
+.pri-cal71 {
+    grid-area: uuuu;
+}
+
+.pri-cal72 {
+    grid-area: vvvv;
+}
+
+.pri-cal73 {
+    grid-area: wwww;
+}
+
+.pri-cal74 {
+    grid-area: xxxx;
+}
+
+.pri-cal75 {
+    grid-area: yyyy;
+}
+
+.pri-cal76 {
+    grid-area: zzzz;
+}
+
+.pri-cal77 {
+    grid-area: aaaaa;
+}
+
+.pri-cal78 {
+    grid-area: bbbbb;
+}
+
+.pri-cal79 {
+    grid-area: ccccc;
+}
+
+.pri-cal80 {
+    grid-area: ddddd;
+}
+
+.pri-cal81 {
+    grid-area: eeeee;
+}
+
+.pri-cal82 {
+    grid-area: fffff;
+}
+
+.pri-cal83 {
+    grid-area: ggggg;
+}
+
+.pri-cal84 {
+    grid-area: hhhhh;
+}
+
+.pri-cal85 {
+    grid-area: iiiii;
+}
+
+.pri-cal86 {
+    grid-area: jjjjj;
+}
+
+.pri-cal87 {
+    grid-area: kkkkk;
+}
+
+.pri-cal88 {
+    grid-area: lllll;
+}
+
+.pri-cal89 {
+    grid-area: mmmmm;
+}
+
+.pri-cal90 {
+    grid-area: nnnnn;
+}
+
+.pri-cal91 {
+    grid-area: ooooo;
+}
+
+.pri-cal92 {
+    grid-area: ppppp;
+}
+
+.pri-cal93 {
+    grid-area: qqqqq;
+}
+
+.pri-cal94 {
+    grid-area: rrrrr;
+}
+
+.pri-cal95 {
+    grid-area: sssss;
+}
+
+.pri-cal96 {
+    grid-area: ttttt;
+}
+
+.pri-cal97 {
+    grid-area: uuuuu;
+}
+
+.pri-cal98 {
+    grid-area: vvvvv;
+}
+
+.pri-cal99 {
+    grid-area: wwwww;
+}
+
+.pri-cal100 {
+    grid-area: xxxxx;
+}
+
+.pri-cal101 {
+    grid-area: yyyyy;
+}
+
+.pri-cal102 {
+    grid-area: zzzzz;
+}
+
+.pri-cal103 {
+    grid-area: aaaaaa;
+}
+
+.pri-cal104 {
+    grid-area: bbbbbb;
+}
+
+.pri-cal105 {
+    grid-area: cccccc;
+}
+
+.pri-cal106 {
+    grid-area: dddddd;
+}
+
+.pri-cal107 {
+    grid-area: eeeeee;
+}
+
+.pri-cal108 {
+    grid-area: ffffff;
+}
+
+.pri-cal109 {
+    grid-area: gggggg;
+}
+
+.pri-cal110 {
+    grid-area: hhhhhh;
+}
+
+.pri-cal111 {
+    grid-area: iiiiii;
+}
+
+.pri-cal112 {
+    grid-area: jjjjjj;
+}
+
+.pri-cal113 {
+    grid-area: kkkkkk;
+}
+
+.pri-cal114 {
+    grid-area: llllll;
+}
+
+.pri-cal115 {
+    grid-area: mmmmmm;
+}
+
+.pri-cal116 {
+    grid-area: nnnnnn;
+}
+
+.pri-cal117 {
+    grid-area: oooooo;
+}
+
+.pri-cal118 {
+    grid-area: pppppp;
+}
+
+.pri-cal119 {
+    grid-area: qqqqqq;
+}
+
+.pri-cal120 {
+    grid-area: rrrrrr;
+}
+
+.pri-cal121 {
+    grid-area: ssssss;
+}
+
+.pri-cal122 {
+    grid-area: tttttt;
+}
+
+.pri-cal123 {
+    grid-area: uuuuuu;
+}
+
+.pri-cal124 {
+    grid-area: vvvvvv;
+}
+
+.pri-cal125 {
+    grid-area: wwwwww;
+}
+
+.pri-cal126 {
+    grid-area: xxxxxx;
+}
+
+.pri-cal127 {
+    grid-area: yyyyyy;
+}
+
+.pri-cal128 {
+    grid-area: zzzzzz;
+}
+
+.pri-cal129 {
+    grid-area: a;
+}
+
+.pri-cal130 {
+    grid-area: b;
+}
+
+.pri-cal131 {
+    grid-area: c;
+}
+
+.pri-cal132 {
+    grid-area: d;
+}
+
+.pri-cal133 {
+    grid-area: e;
+}
+
+.pri-fbody .leftD {
+    text-align: left;
+}
+
+.pri-fbody .pri-wide {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(231, 228, 228);
+}
+
+#pric-bgimg {
+    background-image: url("image12.jpeg");
+    background-size: cover;
+    width: 78%;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 11%;
+}
+
+#pric-bgimg>button {
+    top: 70%;
+    left: 30%;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: #00A2FF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pri-quest {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#pri-queans {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    font-size: 18px;
+}
+
+div>.pri-bt {
+    position: relative;
+    top: 10%;
+    left: 80%;
+    width: 30px;
+    border: 2px solid #00A2FF;
+}
+
+#price-quote {
+    text-align: center;
+    width: 55%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+#price-quote .pri-quote {
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#lang-data {
+    width: 60%;
+    margin: auto;
+    margin-left: 20%;
+    height: 50px;
+}
+
+#lang-data>img {
+    top: 0%;
+    left: 10%;
+    position: relative;
+    width: 50px;
+    height: 40px;
+}
+
+#lang-data>.dropdown {
+    top: 0%;
+    left: 25%;
+    position: relative;
+}
+
+#lang-data>.dropdown>button {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 18px;
+    width: 120px;
+    padding: 0px;
+    height: 33px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 40%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content>a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.sticky {
+    top: 0%;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    margin: -6% 0% 0% 20vw;
+}
+
+.flex {
+    display: flex;
+}
+
+body>#layouts {
+    /* width: 100%; */
+    height: 70px;
+    top: 0%;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+}
+
+img-resize{
+    height: 30px;
+    width: 50px;
+}

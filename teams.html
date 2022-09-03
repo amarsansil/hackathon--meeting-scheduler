@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <title>Calendly for Teams</title>
+    <link rel="stylesheet" href="./css/teams_style.css">
+    
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel = "icon" href =  "https://assets.calendly.com/assets/favicon-6c298004c5e8a7eb846b3a356bc6d036c1a880e5d22163f4f52a7e3d6bb12109.ico" 
+    type = "image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+ <!-- header starts here -->
+
+ <div id="layout" class="flex">
+
+    <div>
+        <img style="height: 30px; width: 50px" class="icon"
+             src="assets/logo.png"
+             alt="">
+    </div>
+    <div>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <!-- <label class="logo">DesignX</label> -->
+            <ul id="nav_menu">
+                <li><a class="active" href="index.html">Features</a></li>
+                <li><a href="leader.html">Leaders</a></li>
+                <li><a href="consultant.html">Consultants</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <!--            <li><a href="integrations.html">Integrations</a></li>-->
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="teams.html">For Team</a></li>
+                <!-- <li class="signupButton"><a href="#">Sign up</a></li> -->
+                <li><button class="signupButton">
+                    <a href="signup.html">Sign Up</a>
+                </button></li>
+                <li><a href="login.html">Log in</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section></section>
+</div>
+
+<!-- header ends here  -->
+    <main>
+        <div id="top_container">
+            <h1>Simple, beautiful team scheduling.</h1>
+            <div>
+                <input type="email" placeholder="    Enter your email" id="signup_mail"/>
+                <a href="signup.html">
+                <button id="signup">Sign Up</button>
+                </a>
+                <p>Get started for free. No credit card required.</p>
+            </div>
+        </div>
+        <div id="grid_container"></div>
+        <form>
+            <h1>Have a question about how Calendly might fit your team's needs?</h1>
+            <p>Tell us more, and we’ll see how we can help.</p>
+            <table>
+                <tr>
+                    <td><label for="first_name" class="small_label">Name *</label><br><input type="text" id="first_name"/></td>
+                    <td><label for="email" class="small_label">Business Email Address *</label><br><input type="email" id="email"/></td>
+                </tr>
+                <tr>
+                    <td><label class="small_label">First</label><br><input type="text" id="last_name"/><br><label class="small_label">Last</label></td>
+                </tr>
+                <tr>
+                    <td><label for="company" class="small_label">Company *</label><br><input type="text" id="company"/></td>
+                    <td><label for="phone" class="small_label">Phone Number *</label><br><input type="text" id="phone"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label class="small_label">How many of your team members are going to use Calendly? *</label><br>
+                        <input type="radio" id="members_1" name="members" value="1" checked="checked"/><label for="members_1">1</label><br>
+                        <input type="radio" id="members_2" name="members" value="2"/><label for="members_2">2 - 9</label><br>
+                        <input type="radio" id="members_3" name="members" value="10"/><label for="members_3">10 - 50</label><br>
+                        <input type="radio" id="members_4" name="members" value="51"/><label for="members_4">51 - 100</label><br>
+                        <input type="radio" id="members_5" name="members" value="101"/><label for="members_5">101+</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label class="small_label">Which best describes your department and role? *</label><br>
+                        <input type="radio" id="role_1" name="role" value="1" checked="checked"/><label for="role_1">Sales + marketing</label><br>
+                        <input type="radio" id="role_2" name="role" value="2"/><label for="role_2">Account management or customer success</label><br>
+                        <input type="radio" id="role_3" name="role" value="3"/><label for="role_3">Recruiting</label><br>
+                        <input type="radio" id="role_4" name="role" value="4"/><label for="role_4">Education</label><br>
+                        <input type="radio" id="role_5" name="role" value="5"/><label for="role_5">Consultant, freelancer or entrepreneur</label><br>
+                        <input type="radio" id="role_6" name="role" value="6"/><label for="role_6">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label class="small_label">What are you interested in? *</label><br>
+                        <input type="radio" id="interest_1" name="interest" value="1" checked="checked"/><label for="interest_1">Getting my Calendly account set up</label><br>
+                        <input type="radio" id="interest_2" name="interest" value="2"/><label for="interest_2">Scheduling a demo</label><br>
+                        <input type="radio" id="interest_3" name="interest" value="3"/><label for="interest_3">Discovering how Calendly works with my team’s specific use-case</label><br>
+                        <input type="radio" id="interest_4" name="interest" value="4"/><label for="interest_4">Pricing details</label><br>
+                        <input type="radio" id="interest_5" name="interest" value="5"/><label for="interest_5">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="detail" class="small_label">Please describe your questions, challenges and use-case in detail. *</label><br>
+                        <textarea id="detail" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button id="submit">Submit</button>
+                    </td>
+                </tr>
+                <tr style="clear: both;"></tr>
+            </table>
+        </form>
+    </main>
+    
+    <!-- footer ends here -->
+
+    <div id="footer_top">
+        <div class="flex footer_row">
+
+            <div style="padding-bottom: 10px; padding-left: 720px">
+                <select id="dropdown" data-placeholder="Language;">
+                    <option value="English">English</option>
+                    <option value="English">Francais</option>
+                    <option value="English">Espanol</option>
+                    <option value="English">Deutsch</option>
+                    <option value="English">Portugues</option>
+                </select>
+            </div>
+        </div>
+
+        <hr>
+    </div>
+
+    <div id="footer">
+        <div class=" main_row flex">
+
+            <div class="fotr_col_1">
+                <h3>Product</h3>
+                <a href="#">
+                    <li>Features</li>
+                </a>
+                <a href="#">
+                    <li>
+                        Integrations
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        For Teams
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Plans
+                    </li>
+                </a>
+            </div>
+            <div class="fotr_col_2">
+                <h3>Solutions</h3>
+                <a href="#">
+                    <li>Sales + Marketing</li>
+                </a>
+                <a href="#">
+                    <li>
+                        Education
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Interview Scheduling
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Customer Success
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Consultants
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Leaders
+                    </li>
+                </a>
+            </div>
+            <div class="fotr_col_3">
+                <h3>Resources</h3>
+                <a href="">
+                    <li>Resource Library</li>
+                </a>
+                <a href="">
+                    <li>Developer Tools</li>
+                </a>
+                <a href="">
+                    <li>Help Center</li>
+                </a>
+                <a href="">
+                    <li>API Reference</li>
+                </a>
+                <a href="">
+                    <li>Video Tutorials</li>
+                </a>
+                <a href="">
+                    <li>Community</li>
+                </a>
+                <a href="">
+                    <li>Cookie Opt-Out</li>
+                </a>
+            </div>
+            <div class="fotr_col_4">
+                <h3>About Us</h3>
+                <a href="">
+                    <li>Security</li>
+                </a>
+                <a href="">
+                    <li>Jobs</li>
+                </a>
+                <a href="">
+                    <li>Location</li>
+                </a>
+                <a href="">
+                    <li>Blog</li>
+                </a>
+            </div>
+            <div class="fotr_col_5">
+                <h3>Join Us On</h3>
+                <ul id="share_icon">
+                    <li>
+                        <img src="https://assets.website-files.com/5e6c01bb5212506d6c119069/5e6c01bb8abd7762ed7d8e63_twitter.svg"
+                            alt="twitter">
+                    </li>
+                    <li><img src="https://assets.website-files.com/5e6c01bb5212506d6c119069/5e6c01bb8abd7768627d8e5d_linkedin.svg"
+                            alt="linkedin"></li>
+                    <li><img src="https://assets.website-files.com/5e6c01bb5212506d6c119069/5e802c87d802d6155e87a90f_angel%20list.svg"
+                            alt="angel.co"></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div id="credit_bar">
+            <div>
+                <p><span>© 2022 MeetBo</span>
+                    We take the work out of connecting with others so you can accomplish more.</p>
+                <div>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Terms</a></li>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer starts here -->
+  
+    <script type="text/javascript" src="./js/teams_script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,111 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0%;
+  margin: 0%;
+  color: rgb(54, 54, 54);
+}
+/* header css */
+.header-div {
+  text-align: center;
+  padding-top: 15vh;
+  height: 40vh;
+  width: 60vw;
+  margin-left: 20vw;
+}
+#img1 {
+  width: 90px;
+  height: 90px;
+}
+#p1 {
+  font-size: 22px;
+}
+/* header css ends */
+
+/* middle class css */
+.middle-cls {
+  padding-top: 10px;
+  width: 60vw;
+  margin-left: 20vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#img3 {
+  width: 50vh;
+  margin-left: 10vh;
+}
+#content-para {
+  height: 30vh;
+  width: 25vw;
+  padding-left: 5vw;
+  padding-top: 12vh;
+}
+/* middle class css ends */
+/* resource  field*/
+#h2tag {
+  text-align: center;
+}
+
+.resrc {
+  padding-left: 18vw;
+  display: flex;
+  width: 70vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.div1 {
+  height: 50vh;
+  width: 35vh;
+  border-radius: 10px;
+  margin: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  text-align: center;
+}
+#img2 {
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 22vh;
+  width: 41vh;
+  margin-left: -3.5vh;
+}
+h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+h3 {
+  padding-top: 3vh;
+}
+#p2 {
+  padding-top: 3vh;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+}
+
+/* resource  field css ends*/
+/* center div */
+.center {
+  padding-top: 15vh;
+  text-align: center;
+  line-height: 70px;
+}
+input {
+  height: 50px;
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+}
+button {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid skyblue;
+  background-color: skyblue;
+}
+/* center div css ends */

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      read,write,delete, update
+    </title>
+  </head>
+    Name <input id="namebox" type="text"></input> <br><br>
+    Roll no <input id="rollbox" type="text"></input> <br><br>
+    Section <input id="secbox" type="text"></input> <br><br>
+    Gender <input id="genbox" type="text"></input> <br><br>
+    <br><br>
+    <button id="insert">INSERT</button>
+    <button id="select">SELECT</button>
+    <button id="update">UPDATE</button>
+    <button id="delete">DELETE</button>
+
+    <!--Firebase Libraries-->
+<script src="https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.9.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.9.4/firebase-database.js"></script>
+
+<script id="MainScript">
+  const firebaseConfig = {
+    apiKey: "AIzaSyCNrTT7_-jT1AmoCXNqE2qAwY4MlIGYLD0",
+    authDomain: "eduhub-meeting-schedule.firebaseapp.com",
+    projectId: "eduhub-meeting-schedule",
+    storageBucket: "eduhub-meeting-schedule.appspot.com",
+    messagingSenderId: "886617140992",
+    appId: "1:886617140992:web:4489c4d294f2efbb0a8de5",
+    measurementId: "G-PKJ5GWQ8JK"
+  };
+  firebase.initializeApp(firebaseConfig);
+  //--------------READY DATA----------------------//
+  var nameV, rollV, secV, genV;
+  function Ready(){
+    nameV=document.getElementById('namebox').value;
+    rollV=document.getElementById('rollbox').value;
+    secV=document.getElementById('secbox').value;
+    genV=document.getElementById('genbox').value;
+  }
+</script>
+
+  
+  </body>
+</html>

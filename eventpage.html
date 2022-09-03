@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/eventpage.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/sign_header1.css" />
+    <link rel = "icon" href =  "https://assets.calendly.com/assets/favicon-6c298004c5e8a7eb846b3a356bc6d036c1a880e5d22163f4f52a7e3d6bb12109.ico" 
+    type = "image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ <!-- header start -->
+ <div class="header-div">
+    <img
+            style="height: 30px; width: 50px"
+      src="assets/logo.png"
+      id="header-img"
+    />
+    <div class="header-btn">
+      <button id="head-btn1"><a href="./user.html">Home</a></button>
+      <button id="head-btn1"><a href="#">Availability</a></button>
+      <button id="head-btn1"><a href="#">Integration</a></button>
+      <button id="head-btn1"><a href="#">Help</a></button>
+      <div class="dropdown">
+        <button id="head-btn1" class="dropbtn">Account</button>
+        <div class="dropdown-content">
+          <a href="acc_setting.html">Account Setting</a>
+          <a href="#"> Billing</a>
+          <a href="#">Calendar Connection</a>
+          <a href="#">Users</a>
+          <a href="#">Privacy And Security Setting</a>
+          <a href="#">Share your link</a>
+          <a href="#">Apps</a>
+          <hr class="clear" />
+          <a href="login.html" onclick="logout()">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header ends -->
+    <div id="eve-cont">
+        <div id="eve-top1">
+            <button id="eve-back"><i class="fa fa-angle-left" style="color: blue"><a href="user.html" style="font-size:20px; color: blue;"> Back</a></i></button>
+            <span id="eve-type">Create New Event Type</span>
+        </div>
+
+        <div id="eve-grid">
+            <div id="eve-top2">
+                <img src="assets/oneonone.png"
+                    alt="image">
+                <span class="eve-span">
+                    <p>One-on-One</p>
+                    Let an invitee pick a time to meet with you.
+                </span>
+                <button onclick="redirect()">Create</button>
+            </div>
+
+
+
+            <div id="eve-top3">
+                <img src="assets/group.png"
+                    alt="image">
+                <span class="eve-span">
+                    <p>Group</p>
+                    Let multiple invitees meet with you at one time.
+                </span>
+                <button onclick="redirect()">Create</button>
+            </div>
+
+            <div id="eve-top4"><span>Want to host shared events with others? Add members to your account</span>
+                <button id="eve-invite">Invite members</button>
+            </div>
+
+            <div id="eve-top5">
+                <img src="assets/collective.png"
+                    alt="image">
+                <span class="eve-span">
+                    <p>Collective</p>Host an event with another person and let invitees pick a time when you’re all
+                    available.
+                </span>
+                <button class="eve-greybtn">Create</button>
+            </div>
+
+
+            <div id="eve-top6">
+                <img src="assets/round%20robin.png"
+                    alt="image">
+                <span class="eve-span">
+                    <p>Round Robin</p>
+                    Create an event that cycles between multiple hosts.
+                </span>
+                <button>Create</button>
+            </div>
+
+
+
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/form.js"></script>
+<!-- Start of ChatBot (www.chatbot.com) code -->
+<script type="text/javascript">
+    window.__be = window.__be || {};
+    window.__be.id = "604afaec012e2e000777fe25";
+    (function () {
+      var be = document.createElement("script");
+      be.type = "text/javascript";
+      be.async = true;
+      be.src =
+        ("https:" == document.location.protocol ? "https://" : "http://") +
+        "cdn.chatbot.com/widget/plugin.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(be, s);
+    })();
+  </script>
+  <!-- End of ChatBot code -->
+</body>
+
+</html>

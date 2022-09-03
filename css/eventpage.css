@@ -1,0 +1,138 @@
+#eve-cont{
+    width: 85%;
+    margin: auto;
+    min-height: 800px;
+    margin-top: 120px;
+    
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#eve-top1{
+
+    width: 90%;
+    height: 60px;
+    margin-bottom: 30px;
+    /* margin-top: 100px; */
+    /* margin: auto */
+
+}
+#eve-top1>button{
+    
+    width: 100px;
+    height: 40px;
+    padding-top: 0px;
+    font-size: 20px;
+    margin: 10px;
+
+}
+#eve-top1>span{
+    /* float: right; */
+    /* margin-right: 450px; */
+    font-size: 25px;
+    width: 300px;
+    height: 60px;
+    margin-left: 27%;
+}
+
+#eve-grid{
+    
+    display: grid;
+    grid-template: "a"
+    "b"
+    "c"
+    "d"
+    "e";
+    
+}
+#eve-top2{
+    grid-area: a;
+    min-height: 100px;
+    width: 90%;
+}
+#eve-top3{
+    grid-area: b;
+    min-height: 100px;
+    padding-bottom: 30px;
+    width: 90%;
+    margin-top: 23px;
+}
+#eve-top4{
+    width: 88%;
+    grid-area: c;
+    min-height: 60px;
+    background:rgb(190, 190, 230);
+    padding-top: 35px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30px;
+
+
+}
+#eve-top5{
+    width: 90%;
+    grid-area: d;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    opacity: 0.6;
+}
+button{
+    background-color: rgb(236, 234, 234);
+}
+#eve-top6{
+    width: 90%;
+    grid-area: e;
+    min-height: 100px;
+    padding-bottom: 30px;
+    opacity: 0.6;
+}
+
+#eve-grid img{
+    margin: 10px;
+    float: left;
+    margin-right: 25px;
+   
+    width: 90px;
+    height: 80px;
+}
+#eve-grid button{
+    /* margin: 10px; */
+    float: right;
+    width: 80px;
+    background: rgb(85, 85, 214);
+    min-height: 40px;
+    font-size: 13px;
+    color: white;
+    border-radius: 10px;
+
+}
+#eve-grid p{
+ margin-top: 23px;
+ font-size: 20px;
+}
+#eve-top4 #eve-invite{
+    width: 120px;
+    background: rgb(190, 190, 230);;
+}
+#eve-back{
+    border:1px solid blue;
+    background: white;
+    
+    
+}
+#eve-type{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#eve-top6 button{
+    background-color: rgb(241, 240, 240);
+    color: rgb(48, 47, 47);
+}
+#eve-top5 button{
+    background-color: rgb(241, 240, 240);
+    color: rgb(48, 47, 47);
+
+}
